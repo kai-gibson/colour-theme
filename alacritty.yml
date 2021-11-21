@@ -1,0 +1,30 @@
+# A modifed gruvbox theme for alacritty inspired by the Australian mountain ranges
+
+schemes:
+  kai_theme_dark: &kai_theme_dark
+    primary:
+      background: '0x1f1e23'
+      foreground: '0xf1c48e'
+    search:
+        text: CellBackground
+        background: '0xde7f6b'
+    normal:
+      black:   '0x3c3836'
+      red:     '0xde7f6b'
+      green:   '0x899f00'
+      yellow:  '0xa68749'
+      blue:    '0x839ced'
+      magenta: '0xb88db7'
+      cyan:    '0xc0d5a0' #'0xb2ea77'
+      white:   '0xf3d8b7'
+    bright:
+      black:   '0x8d8889'
+      red:     '0xff3d29'
+      green:   '0x98bb2e'
+      yellow:  '0xedc059'
+      blue:    '0x92a09e'
+      magenta: '0xc4add9'
+      cyan:    '0xb2ea77'
+      white:   '0xf1c48e'
+     
+colors: *kai_theme_dark
